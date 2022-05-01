@@ -1,7 +1,67 @@
+.main-box {
+    
+    display: flex;
+
+    align-items: flex-end;
+
+    
+    
+}
+
 textarea {
     resize: none;
     width: 80vw;
-    height: 10vh;
+    
     font-size:xx-large;
     font-family: inherit;
+    color: #171717;
+
+    border: none;
+    outline: none;
+
+    border-bottom: solid #DA0037;
+    
+
+    background-color: #EDEDED;
+
+    margin-bottom: 3%;
+    
+}
+
+textarea:focus {
+    animation: PulseAttention 1.5s cubic-bezier(.215, .61, .355, 1) forwards infinite;
+}
+
+
+@keyframes PulseAttention {
+    50% {
+        border-color: #444444;
+    }
+}
+
+
+.shortcutM {
+    margin-bottom: 0;
+    max-height: 50px;
+    margin-left: 20px;
+    border: 2px solid #171717; 
+    box-shadow: 2px 2px #171717; 
+    font-size: .85em; 
+    line-height: .85em; 
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: .05em; 
+    padding: 3px 5px;
+    white-space: nowrap;
+
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.shortcutM span{
+    padding: 0 5px;
+    font-size: small;
+    margin: 0 auto;
+    
 }

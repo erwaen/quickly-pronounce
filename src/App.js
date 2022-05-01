@@ -2,25 +2,29 @@ import logo from './logo.svg';
 import './App.css';
 
 
-import { useState } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 
 import SpeakButton from './components/speakButton.jsx'
 import TextArea from './components/textArea.jsx';
 
 
 
+
 function App() {
 
   const [sentence, setSentence] = useState('');
-
+  
 
   return (
     <div className="App">
-      <TextArea setSentence={setSentence}/>
-      <h1>
-        {sentence}
-      </h1>
-      <SpeakButton sentence={sentence}/>
+      <div className='container'>
+        <TextArea setSentence={setSentence}/>
+        <SpeakButton sentence={sentence}/>
+        
+      </div>
+      
+      <footer>Erik Wasmosy @ erwaen</footer>
+      
     </div>
   );
 }

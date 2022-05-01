@@ -1,3 +1,54 @@
 button {
     font-family: inherit;
+    background-color: #DA0037;
+    font-size: xx-large;
+    color: #EDEDED;
+    
+    border: 2px solid #171717; 
+    box-shadow: 2px 2px #171717; 
+    font-size: .85em; 
+    line-height: .85em; 
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: .05em; 
+    padding: 3px 5px;
+    white-space: nowrap;
+
+    font-size: xx-large;
+
+    padding: 5px 10px;
+
+  
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shortcut {
+    
+    
+    margin-left: 20px;
+    border: 2px solid #171717; 
+    box-shadow: 2px 2px #171717; 
+    font-size: .85em; 
+    line-height: .85em; 
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: .05em; 
+    padding: 3px 5px;
+    white-space: nowrap;
+
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.shortcut span{
+    padding: 0 5px;
+    font-size: small;
+    margin: 0 auto;
+    
 }
