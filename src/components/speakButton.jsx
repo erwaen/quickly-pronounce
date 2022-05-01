@@ -32,7 +32,7 @@ const SpeakButton = (props) => {
             <button 
             id="pronounce"
             onClick={() => speak({text: props.sentence})}>
-                P!    
+                Pronounce!    
             </button>
             <div className="shortcut">
                 <span>Ctrl</span>
