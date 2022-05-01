@@ -18,6 +18,8 @@ button {
 
     padding: 5px 10px;
 
+    
+
   
 }
 
@@ -25,6 +27,8 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    
 }
 
 .shortcut {
@@ -48,7 +52,8 @@ button {
 
 .shortcut span{
     padding: 0 5px;
-    font-size: small;
+    font-size: medium;
     margin: 0 auto;
     
 }
+

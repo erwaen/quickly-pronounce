@@ -11,7 +11,7 @@ const SpeakButton = (props) => {
 
     const handleKeyPress = useCallback((event) => {
         if (event.ctrlKey  && event.keyCode === 13){
-            console.log("gs");
+           
             document.getElementById("pronounce").click()
           
         }
