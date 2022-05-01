@@ -1,6 +1,6 @@
 import React from "react";
 import { useSpeechSynthesis } from 'react-speech-kit';
-
+import './speakButton.css'
 
 const SpeakButton = (props) => {
 

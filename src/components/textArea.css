@@ -1,0 +1,7 @@
+textarea {
+    resize: none;
+    width: 80vw;
+    height: 10vh;
+    font-size:xx-large;
+    font-family: inherit;
+}
