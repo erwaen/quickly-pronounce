@@ -10,7 +10,7 @@ const TextArea = (props) => {
 
     const handleKeyPress = useCallback((event) => {
         if (event.ctrlKey  && event.keyCode === 77){
-            console.log("m");
+           
             document.getElementById("inputText").focus();
         }
         
