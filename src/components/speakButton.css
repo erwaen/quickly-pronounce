@@ -23,6 +23,13 @@ button {
   
 }
 
+button:hover {
+    background-color: #EDEDED;
+ 
+    color: #DA0037;
+    
+}
+
 button:active {
     background-color: #EDEDED;
     box-shadow: 1px 1px #171717; 
