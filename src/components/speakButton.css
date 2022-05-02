@@ -23,6 +23,13 @@ button {
   
 }
 
+button:active {
+    background-color: #EDEDED;
+    box-shadow: 1px 1px #171717; 
+    color: #DA0037;
+    transform: translate(2px, 2px);
+}
+
 .main-container {
     display: flex;
     justify-content: center;
