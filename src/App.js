@@ -1,8 +1,8 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 
-import { useState, useCallback, useEffect } from 'react';
+import { useState } from 'react';
 
 import SpeakButton from './components/speakButton.jsx'
 import TextArea from './components/textArea.jsx';

@@ -32,7 +32,8 @@ button:hover {
 
 button:active {
     background-color: #EDEDED;
-    box-shadow: 1px 1px #171717; 
+    box-shadow: none; 
+    
     color: #DA0037;
     transform: translate(2px, 2px);
 }
